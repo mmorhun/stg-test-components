@@ -10,6 +10,6 @@ spec:
   componentName: component2-nudged
   source:
     git:
-      url: https://github.com/mmorhun/test-components.git
+      url: https://github.com/mmorhun/stg-test-components.git
       revision: component2-nudged
       dockerfileUrl: Dockerfile

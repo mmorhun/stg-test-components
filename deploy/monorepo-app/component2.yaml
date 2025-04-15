@@ -1,16 +1,16 @@
 apiVersion: appstudio.redhat.com/v1alpha1
 kind: Component
 metadata:
-  name: component2
+  name: monorepo-component2
   annotations:
     build.appstudio.openshift.io/request: configure-pac
     build.appstudio.openshift.io/pipeline: '{"name":"docker-build","bundle":"latest"}'
 spec:
   application: monorepo-app
-  componentName: component2
+  componentName: monorepo-component2
   source:
     git:
-      url: https://github.com/mmorhun/test-components.git
+      url: https://github.com/mmorhun/stg-test-components.git
       revision: monorepo
       context: ./component2dir
       dockerfileUrl: Dockerfile

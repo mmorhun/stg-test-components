@@ -10,7 +10,7 @@ spec:
   componentName: multi-platform-component
   source:
     git:
-      url: https://github.com/mmorhun/test-components.git
+      url: https://github.com/mmorhun/stg-test-components.git
       revision: multi-platform
       context: ./
       dockerfileUrl: Dockerfile

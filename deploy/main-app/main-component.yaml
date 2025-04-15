@@ -4,13 +4,13 @@ metadata:
   name: main-component
   annotations:
     build.appstudio.openshift.io/request: configure-pac
-    build.appstudio.openshift.io/pipeline: '{"name":"docker-build","bundle":"latest"}'
+    build.appstudio.openshift.io/pipeline: '{"name":"docker-build-oci-ta","bundle":"latest"}'
 spec:
   application: main-app
   componentName: main-component
   source:
     git:
-      url: https://github.com/mmorhun/test-components.git
+      url: https://github.com/mmorhun/stg-test-components.git
       revision: main
       context: ./
       dockerfileUrl: Dockerfile
