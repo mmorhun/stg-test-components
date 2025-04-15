@@ -10,7 +10,7 @@ spec:
   componentName: component1
   source:
     git:
-      url: https://github.com/mmorhun/test-components.git
+      url: https://github.com/mmorhun/stg-test-components.git
       revision: monorepo
       context: ./component1dir
       dockerfileUrl: Dockerfile

@@ -10,7 +10,7 @@ spec:
   componentName: main-component
   source:
     git:
-      url: https://github.com/mmorhun/test-components.git
+      url: https://github.com/mmorhun/stg-test-components.git
       revision: main
       context: ./
       dockerfileUrl: Dockerfile
