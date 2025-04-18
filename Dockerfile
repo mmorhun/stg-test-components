@@ -1,4 +1,4 @@
-FROM gcc:4.9 AS builder
+FROM gcc:14.2 AS builder
 WORKDIR /app
 COPY main.c .
 RUN gcc -o myapp main.c
