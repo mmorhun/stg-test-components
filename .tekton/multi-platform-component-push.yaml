@@ -603,7 +603,8 @@ spec:
       optional: true
     - name: netrc
       optional: true
-  taskRunTemplate: {}
+  taskRunTemplate:
+    serviceAccountName: build-pipeline-multi-platform-component
   workspaces:
   - name: git-auth
     secret:
